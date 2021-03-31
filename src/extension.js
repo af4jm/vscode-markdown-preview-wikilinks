@@ -8,7 +8,12 @@ function PageNameGenerator(label) {
     return label.split('/').map(function(pathSegment) {
 
         // remove file path extension
-        return pathSegment.replace(/\.[^/.]+$/, "");
+        pathSegment = pathSegment.replace(/\.[^/.]+$/, "");
+
+        // escape spaces in the filename
+	pathSegment = pathSegment.replace(/ /g, '%20');
+
+        return pathSegment;
       
     }).join('/');
 }
