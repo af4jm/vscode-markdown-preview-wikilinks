@@ -3,20 +3,20 @@
 		"name": "Thomas Koppelaar"
 	},
 	"publisher": "thomaskoppelaar",
-	"name": "markdown-wiki-links-preview",
-	"displayName": "Markdown Wiki-links preview",
-	"description": "Enables wikilinks in the Markdown preview.",
+	"name": "markdown-wiki-links-preview-vanilla",
+	"displayName": "Markdown Wiki-links preview (vanilla)",
+	"description": "Enables wikilinks in the Markdown preview. Vanilla because it doesn't process your text, you type a space it outputs a space, you type a dash it outputs a dash. Forked from Thomas Koppelaar (https://github.com/thomaskoppelaar/vscode-markdown-preview-wikilinks.git)",
 	"license": "MIT",
-	"version": "1.2.1",
+	"version": "1.0.0",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/thomaskoppelaar/vscode-markdown-preview-wikilinks.git"
+		"url": "https://github.com/af4jm/vscode-markdown-preview-wikilinks.git"
 	},
 	"engines": {
 		"vscode": "^1.47.0"
 	},
 	"keywords": [
-		"foam",
+		"dendron",
 		"markdown",
 		"note-taking",
 		"md",
@@ -33,7 +33,7 @@
 		"markdown.markdownItPlugins": true,
 		"configuration": [
 			{
-				"title": "Markdown Wiki-links preview",
+				"title": "Markdown Wiki-links preview (vanilla)",
 				"properties": {
 					"markdown-wiki-links-preview.urisuffix": {
 						"type": "string",
@@ -57,7 +57,7 @@
 					},
 					"markdown-wiki-links-preview.descriptionthenfile": {
 						"type": "boolean",
-						"default": false,
+						"default": true,
 						"description": "States whether or not the description is the first item in the wikilink. On true: This means your wikilink syntax should look like [[desciption|file]]"
 					},
 					"markdown-wiki-links-preview.WikiLinksSeparator": {
