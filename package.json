@@ -1,8 +1,8 @@
 {
 	"author": {
-		"name": "Thomas Koppelaar"
+		"name": "John Meyer, AF4JM"
 	},
-	"publisher": "thomaskoppelaar",
+	"publisher": "af4jm",
 	"name": "markdown-wiki-links-preview-vanilla",
 	"displayName": "Markdown Wiki-links preview (vanilla)",
 	"description": "Enables wikilinks in the Markdown preview. Vanilla because it doesn't process your text, you type a space it outputs a space, you type a dash it outputs a dash. Forked from Thomas Koppelaar (https://github.com/thomaskoppelaar/vscode-markdown-preview-wikilinks.git)",
